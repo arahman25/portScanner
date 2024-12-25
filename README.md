@@ -3,9 +3,6 @@
 # to communicate using TCP/UDP with other machines
 import socket 
 
-# to print some statements in different colors
-import termcolor
-
 # to inititate Scan Request function
 def scan(targets,ports):
   for port in range (1,ports):
